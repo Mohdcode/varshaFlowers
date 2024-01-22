@@ -23,11 +23,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: #e6834e;
 }
 header img {
-  margin: 30px 0px 0px 40px;
-  height: 6rem;
-  width: 9rem;
+  margin: 30px 0px -4px 40px;
+  height: 7rem;
+  width: 11rem;
 }
 nav > ul {
   list-style: none;
@@ -35,6 +40,7 @@ nav > ul {
   margin-right: 200px;
 }
 ul > li {
+  
   margin: 15px 0 0 30px;
 }
 li a {
@@ -47,18 +53,28 @@ li i > a {
   font-weight: 500;
 }
 li a:hover {
+  color: white;
   transition: 0.2s;
-  font-size: 14px;
+  
 }
 li i a:hover {
+  color: white;
   transition: 0.2s;
-  font-size: 12px;
+  
+}
+li i:hover{
+    color: white;
+  transition: 0.2s;
+  
 }
 
 /* Your existing styles remain unchanged */
 
 .ifirst {
   background: #f3e8e2;
+}
+.headContent {
+  padding: 90px 0 0 0;
 }
 .headContent h1 {
   font-family: "STIX Two Text", serif;
@@ -138,6 +154,7 @@ h2 + p {
 }
 .scontainer h3 {
   display: inline-block;
+  text-overflow: wrap;
   font-family: "STIX Two Text", serif;
   text-align: left;
   font-weight: 500;
@@ -224,6 +241,7 @@ footer .fa-solid {
 footer .fa-solid a {
   color: #000;
   font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
   text-decoration: none;
   padding: 0 0 0 1px;
 }
@@ -233,4 +251,63 @@ footer ul {
 h6 a {
   text-decoration: none;
   color: #000;
+}
+footer .Copyright {
+  font-weight: 400;
+  padding: 0 0 20px 0;
+}
+.rfirst {
+  background: #f3e8e2;
+  padding: 190px 0 0 0;
+  text-align: center;
+}
+#rentalItems h2 {
+  padding: 60px 0 0 0;
+  font-family: "STIX Two Text", serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+#rentalItems p {
+  font-size: 17px;
+  padding: 0 0 30px 0;
+}
+.itemShow {
+  background: #000;
+  color: white;
+ 
+  
+}
+.itemShow h3 {
+  padding: 60px 0 60px 0;
+  font-family: "STIX Two Text", serif;
+  font-weight: 600;
+  font-size: 45px;
+}
+.imgflex{
+   display: flex;
+  justify-content: space-evenly;
+}
+.imgtemp img {
+  margin: 20px 30px 30px 30px;
+  border-radius: 14%;
+  width: 300px;
+  height:350px;
+}
+.imgtemp h4{
+  padding: 30px 0 0 0;
+ 
+}
+.imgtemp{
+   border: white;
+  border: solid;
+  padding: 0 0 10px 0;
+  margin: 0 0 40px 0;
+   
+}.imgtemp p{
+  font-family: "STIX Two Text",serif;
+  font-weight: 500;
+  font-size: 16px;
+  
+ background-color: #D1510A;  
+ padding: 10px 0 10px 0;
 }
