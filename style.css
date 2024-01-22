@@ -40,7 +40,6 @@ nav > ul {
   margin-right: 200px;
 }
 ul > li {
-  
   margin: 15px 0 0 30px;
 }
 li a {
@@ -55,17 +54,14 @@ li i > a {
 li a:hover {
   color: white;
   transition: 0.2s;
-  
 }
 li i a:hover {
   color: white;
   transition: 0.2s;
-  
 }
-li i:hover{
-    color: white;
+li i:hover {
+  color: white;
   transition: 0.2s;
-  
 }
 
 /* Your existing styles remain unchanged */
@@ -80,7 +76,7 @@ li i:hover{
   font-family: "STIX Two Text", serif;
   font-size: 50px;
   font-weight: 500;
-  margin: 100px 0 0 0;
+  padding: 170px 0 0 0;
   text-align: center;
 }
 .headContent p {
@@ -122,7 +118,7 @@ li i:hover{
   font-size: 11px;
 }
 .isecond h2 {
-  margin: 20px 0 0 0;
+  margin: 40px 0 0 0;
   font-family: "STIX Two Text", serif;
   font-weight: 500;
   font-size: 45px;
@@ -264,8 +260,8 @@ footer .Copyright {
 #rentalItems h2 {
   padding: 60px 0 0 0;
   font-family: "STIX Two Text", serif;
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 500;
 }
 #rentalItems p {
   font-size: 17px;
@@ -274,8 +270,6 @@ footer .Copyright {
 .itemShow {
   background: #000;
   color: white;
- 
-  
 }
 .itemShow h3 {
   padding: 60px 0 60px 0;
@@ -283,31 +277,115 @@ footer .Copyright {
   font-weight: 600;
   font-size: 45px;
 }
-.imgflex{
-   display: flex;
+.imgflex {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .imgtemp img {
   margin: 20px 30px 30px 30px;
   border-radius: 14%;
-  width: 300px;
-  height:350px;
+  width: 250px;
+  height: 250px;
 }
-.imgtemp h4{
+.imgtemp h4 {
   padding: 30px 0 0 0;
- 
 }
-.imgtemp{
-   border: white;
+.imgtemp {
+  border: white;
   border: solid;
   padding: 0 0 10px 0;
-  margin: 0 0 40px 0;
-   
-}.imgtemp p{
-  font-family: "STIX Two Text",serif;
+  margin: 0 0 80px 0;
+}
+.imgtemp p {
+  font-family: "STIX Two Text", serif;
   font-weight: 500;
   font-size: 16px;
-  
- background-color: #D1510A;  
- padding: 10px 0 10px 0;
+
+  background-color: #d1510a;
+  padding: 10px 0 10px 0;
+}
+.video-container {
+  position: relative;
+  overflow: hidden; /* Hide overflowing content */
+  height: 500px; /* Set the desired height for the video container */
+}
+
+.bg-video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -999;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.content-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Adjust the text color based on your video content */
+}
+.content-overlay h2 {
+  padding: 60px 0 0 0;
+  font-family: "STIX Two Text", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #000;
+}
+.content-overlay p {
+  font-size: 17px;
+  padding: 0 0 30px 0;
+  color: #000;
+}
+.efirst {
+  padding-top: 130px;
+}
+.image-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.image-container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+.decorationshowcase h2 {
+  text-align: center;
+  font-family: "STIX Two Text", serif;
+  font-weight: 500;
+  padding: 80px 0 60px 50px;
+  font-size: 45px;
+}
+.decorationshowcase h3 {
+  display: inline-block;
+  border: solid;
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 20px 0 20px 0;
+  border-radius: 12px;
+  padding: 30px 50px 30px 50px;
 }
