@@ -308,7 +308,7 @@ footer .Copyright {
 .video-container {
   position: relative;
   overflow: hidden; /* Hide overflowing content */
-  height: 500px; /* Set the desired height for the video container */
+   /* Set the desired height for the video container */
 }
 
 .bg-video {
@@ -388,4 +388,106 @@ footer .Copyright {
   margin: 20px 0 20px 0;
   border-radius: 12px;
   padding: 30px 50px 30px 50px;
+}
+.product-section {
+  padding: 190px 20px;
+  text-align: center;
+}
+
+.product-category {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.product-showcase-wrapper {
+  overflow-x: scroll;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+
+  /* Stylish scrollbar styles */
+  scrollbar-width: thin;
+  scrollbar-color: #4caf50 #f1f1f1;
+}
+
+.product-showcase-wrapper::-webkit-scrollbar {
+  width: 12px;
+}
+
+.product-showcase-wrapper::-webkit-scrollbar-thumb {
+  background-color: #4caf50;
+}
+
+.product-item {
+  display: inline-block;
+  vertical-align: top;
+}
+.product-price {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* Set background color */
+}
+
+.product-price p {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  color: #333; /* Set the text color to ensure visibility */
+  opacity: 0; /* Initially hide the price */
+  transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+.product-item:hover .product-price p {
+  opacity: 1; /* Make the price visible when hovering over the product item */
+}
+
+.product-image-container {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-item {
+  display: inline-block;
+  vertical-align: top;
+  position: relative; /* Add position relative to enable absolute positioning of the price */
+}
+
+/* Adjust the position of the price as needed */
+.product-price p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for better visibility */
+}
+.product-section h1{
+  font-family: "STIX Two Text",serif;
+  font-weight: 500;
+  font-size: 45px;
+  padding:0 0 20px 0 ;
+
+}
+.product-category h2{
+  display: inline-block;
+  margin: 40px 0 60px 0;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 30px;
+  border: solid;
+  font-weight: 500;
 }
