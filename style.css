@@ -31,9 +31,9 @@ header {
 }
 header img {
   margin: 30px 0px -4px 40px;
-  height: 8rem;
-  width: 11rem;
-  border-radius: 20%;
+  width: 9rem;
+  height: auto;
+  border-radius: 90%;
 }
 nav > ul {
   list-style: none;
@@ -309,7 +309,7 @@ footer .Copyright {
 .video-container {
   position: relative;
   overflow: hidden; /* Hide overflowing content */
-   /* Set the desired height for the video container */
+  /* Set the desired height for the video container */
 }
 
 .bg-video {
@@ -474,16 +474,20 @@ h2 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background for better visibility */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Add a semi-transparent background for better visibility */
 }
-.product-section h1{
-  font-family: "STIX Two Text",serif;
+.product-section h1 {
+  font-family: "STIX Two Text", serif;
   font-weight: 500;
   font-size: 45px;
-  padding:0 0 20px 0 ;
-
+  padding: 0 0 20px 0;
 }
-.product-category h2{
+.product-category h2 {
   display: inline-block;
   margin: 40px 0 60px 0;
   padding: 20px;
