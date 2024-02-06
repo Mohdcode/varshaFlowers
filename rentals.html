@@ -19,7 +19,7 @@
 
         <header>
 
-            <div>
+            <div class="logo">
                 <a href="index.html"><img src="./assets/Pink Watercolour Flower Shop Logo.png" alt=""></a>
             </div>
             <div>
@@ -33,6 +33,13 @@
                     </ul>
                 </nav>
             </div>
+            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg id="myElement" class="menu" width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+            </svg>
 
         </header>
     </div>
@@ -83,7 +90,7 @@
                         <br>
                         ₹150 per shot
                     </p>
-                    
+
                 </div>
             </div>
 
@@ -208,14 +215,14 @@
         <h6>
             <a href="#">VarshaFlowerEvents</a>
         </h6>
-    <ul>
-        <a href="https://wa.me/+917303450082"> <i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.instagram.com/varsha_flowers_gift/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100079153411298&mibextid=LQQJ4d"><i
-                class="fa-brands fa-facebook"></i></a>
-        <a href="mailto:varshaflowersevents@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-        <i class="fa-solid fa-phone"><a href="tel:+917303450082"> +91-73034-50082</a></i>
-    </ul>
+        <ul>
+            <a href="https://wa.me/+917303450082"> <i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/varsha_flowers_gift/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100079153411298&mibextid=LQQJ4d"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="mailto:varshaflowersevents@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <i class="fa-solid fa-phone"><a href="tel:+917303450082"> +91-73034-50082</a></i>
+        </ul>
 
         <p class="Copyright">Copyright © 2024 VarshaFlowerEvents. All Rights Reserved.</p>
 
@@ -224,5 +231,22 @@
 </body>
 <script src="https://kit.fontawesome.com/d5098fe2e9.js" crossorigin="anonymous"></script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuIcon = document.querySelector('.menu');
+        const nav = document.querySelector('header nav ul');
 
+        menuIcon.addEventListener('click', function () {
+            nav.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        });
+        const logo = document.querySelector('.logo');
+
+        menuIcon.addEventListener('click', function () {
+            logo.classList.toggle('active');
+        });
+
+    });
+
+</script>
 </html>

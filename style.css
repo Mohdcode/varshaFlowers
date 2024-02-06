@@ -496,3 +496,69 @@ h2 {
   border: solid;
   font-weight: 500;
 }
+.menu {
+  display: none;
+  cursor: pointer;
+  text-align: right;
+  padding: 1%;
+  transition: transform 0.4s ease;
+  transform: scale(1.2);
+}
+.menu svg {
+  width: 30px; /* Set a fixed width for your menu icon */
+  height: 30px; /* Set a fixed height for your menu icon */
+}
+.menu.active {
+  transform: rotate(90deg);
+}
+@media (max-width: 1100px) {
+  .menu {
+    display: block;
+  }
+
+  ul li {
+    padding: 20px;
+  }
+  nav ul.active {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav ul {
+    display: none;
+  }
+  .logo.active {
+    display: none;
+  }
+}
+.gallery {
+  background: lightpink;
+  font-size: 34px;
+  font-weight: 500;
+  font-family: "STIX Two Text", serif;
+  padding: 40px;
+}
+/* Your existing CSS goes here */
+
+.gallery {
+  text-align: center;
+  margin: 20px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.photo {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
