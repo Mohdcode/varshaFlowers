@@ -642,4 +642,8 @@ h2 {
     padding: 20px; /* Adjust the padding for the footer heading on smaller screens */
     margin: 0; /* Remove any margin to prevent exceeding the screen width */
   }
+  header img {
+    width: 4rem;
+    height: auto;
+  }
 }
