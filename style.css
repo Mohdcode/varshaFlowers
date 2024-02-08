@@ -438,6 +438,7 @@ h2 {
 }
 
 .product-price p {
+  cursor: pointer;
   margin: 10px 0 20px 0;
   text-align: center;
   color: #333; /* Set the text color to ensure visibility */
@@ -561,4 +562,84 @@ h2 {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 14px; /* Adjust the font size for better readability on smaller screens */
+  }
+
+  header {
+    margin-right: 10px; /* Adjust the margin for the header on smaller screens */
+  }
+
+  nav > ul {
+    margin-right: 20px; /* Adjust the margin for the navigation menu on smaller screens */
+  }
+
+  .flexboxcontainer {
+    margin-left: 5%; /* Adjust the margin for the flexbox container on smaller screens */
+  }
+
+  .scontainer {
+    width: 90%; /* Adjust the width of the container on smaller screens */
+    margin: 20px 0 0 5%; /* Adjust the margin for the container on smaller screens */
+  }
+
+  .ithird h4 {
+    font-size: 30px; /* Adjust the font size for heading on smaller screens */
+  }
+
+  .ifourth {
+    flex-direction: column; /* Adjust the flex direction for the fourth section on smaller screens */
+    align-items: center; /* Align items to center on smaller screens */
+  }
+
+  .common {
+    padding: 40px 20px 20px 15px; /* Adjust the padding for common section on smaller screens */
+  }
+
+  footer {
+    padding-left: 15px; /* Adjust the padding for the footer on smaller screens */
+    padding-right: 15px;
+  }
+
+  footer .fa-solid {
+    margin-left: 0; /* Adjust the margin for the social icons on smaller screens */
+  }
+
+  footer ul {
+    margin-left: 0; /* Adjust the margin for the footer ul on smaller screens */
+  }
+
+  #rentalItems h2 {
+    padding: 40px 0 0 0; /* Adjust the padding for rental items heading on smaller screens */
+  }
+
+  .imgtemp {
+    margin: 0 0 40px 0; /* Adjust the margin for the image template on smaller screens */
+  }
+
+  .video-container,
+  .content-overlay h2,
+  .content-overlay p {
+    font-size: 18px; /* Adjust the font size for video container and overlay on smaller screens */
+  }
+
+  .product-section {
+    padding: 90px 10px; /* Adjust the padding for product section on smaller screens */
+  }
+
+  .menu {
+    display: block; /* Ensure the menu is visible on smaller screens */
+  }
+
+  .gallery {
+    font-size: 24px; /* Adjust the font size for the gallery heading on smaller screens */
+    padding: 20px; /* Adjust the padding for the gallery section on smaller screens */
+  }
+  footer > h6 {
+    font-size: 30px; /* Adjust the font size for the footer heading on smaller screens */
+    padding: 20px; /* Adjust the padding for the footer heading on smaller screens */
+    margin: 0; /* Remove any margin to prevent exceeding the screen width */
+  }
 }
