@@ -652,4 +652,10 @@ h2 {
     width: 4rem;
     height: auto;
   }
+  #faq {
+    margin-left: -200px;
+  }
+  #term {
+    margin-left: -50px;
+  }
 }
