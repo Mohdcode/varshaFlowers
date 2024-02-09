@@ -620,9 +620,15 @@ h2 {
   }
 
   .video-container,
-  .content-overlay h2,
   .content-overlay p {
     font-size: 18px; /* Adjust the font size for video container and overlay on smaller screens */
+  }
+  .efirst {
+    padding-top: 32px;
+  }
+
+  .content-overlay h2 {
+    font-size: 25px;
   }
 
   .product-section {
