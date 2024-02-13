@@ -541,7 +541,7 @@ h2 {
   font-size: 34px;
   font-weight: 500;
   font-family: "STIX Two Text", serif;
-  padding: 40px;
+  padding: 90px;
 }
 /* Your existing CSS goes here */
 
@@ -566,6 +566,16 @@ h2 {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .gallery {
+    padding: 40px;
+  }
+
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+  }
 }
 @media (max-width: 767px) {
   body {
