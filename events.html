@@ -433,6 +433,22 @@
         });
 
     });
+    
+        function sendWhatsapp(productName, imagePath) {
+            // Replace 'yourPhoneNumber' with your actual phone number, including the country code.
+            var phoneNumber = '+917303450082';
+
+            // Encode the message, including the product name.
+            var message = encodeURIComponent('I want to order the product: ' + productName);
+            var message = encodeURIComponent('I want to order the product: ' + productName + '\n\nImage: varshaflowers.live' + imagePath);
+
+
+            // Create the WhatsApp URL with the phone number, message, and image.
+            var whatsappURL = 'https://wa.me/' + phoneNumber + '?text=' + message + '&attachment=' + encodeURIComponent(imagePath);
+
+            // Open the WhatsApp URL in a new tab or window.
+            window.open(whatsappURL, '_blank');
+        }
 
 </script>
 

@@ -541,13 +541,12 @@ h2 {
   font-size: 34px;
   font-weight: 500;
   font-family: "STIX Two Text", serif;
-  padding: 90px;
+  padding: 90px 0 40px 0;
 }
 /* Your existing CSS goes here */
 
 .gallery {
   text-align: center;
-  margin: 20px;
 }
 
 .photo-grid {
@@ -577,7 +576,7 @@ h2 {
     gap: 8px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   body {
     font-size: 14px; /* Adjust the font size for better readability on smaller screens */
   }
