@@ -671,4 +671,12 @@ h2 {
   #term {
     margin-left: -50px;
   }
+  .product-price p {
+  cursor: pointer;
+  margin: 10px 0 20px 0;
+  text-align: center;
+  color: #333; /* Set the text color to ensure visibility */
+  opacity: 1; /* Initially hide the price */
+  transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
 }
