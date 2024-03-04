@@ -65,6 +65,7 @@ li i:hover {
   transition: 0.2s;
 }
 
+
 /* Your existing styles remain unchanged */
 
 .ifirst {
@@ -414,7 +415,7 @@ h2 {
 
   /* Stylish scrollbar styles */
   scrollbar-width: thin;
-  scrollbar-color: #4caf50 #f1f1f1;
+  scrollbar-color: #e6834e #f1f1f1;
 }
 
 .product-showcase-wrapper::-webkit-scrollbar {
@@ -422,7 +423,7 @@ h2 {
 }
 
 .product-showcase-wrapper::-webkit-scrollbar-thumb {
-  background-color: #4caf50;
+  background-color: #e6834e;
 }
 
 .product-item {
@@ -672,11 +673,14 @@ h2 {
     margin-left: -50px;
   }
   .product-price p {
-  cursor: pointer;
-  margin: 10px 0 20px 0;
-  text-align: center;
-  color: #333; /* Set the text color to ensure visibility */
-  opacity: 1; /* Initially hide the price */
-  transition: opacity 0.3s ease; /* Add transition for smooth effect */
+    cursor: pointer;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: #333; /* Set the text color to ensure visibility */
+    opacity: 1; /* Initially hide the price */
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+  }
 }
+p b {
+  cursor: pointer;
 }
