@@ -65,6 +65,7 @@ li i:hover {
   transition: 0.2s;
 }
 
+
 /* Your existing styles remain unchanged */
 
 .ifirst {
@@ -505,7 +506,7 @@ h2 {
   display: none;
   cursor: pointer;
   text-align: right;
-  padding: 3%;
+  padding: 1%;
   transition: transform 0.4s ease;
   transform: scale(1.2);
 }
