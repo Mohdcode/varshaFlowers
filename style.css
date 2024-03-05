@@ -513,6 +513,7 @@ h2 {
 .menu svg {
   width: 30px; /* Set a fixed width for your menu icon */
   height: 30px; /* Set a fixed height for your menu icon */
+  padding-right: 10px;
 }
 .menu.active {
   transform: rotate(90deg);
@@ -520,6 +521,7 @@ h2 {
 @media (max-width: 1100px) {
   .menu {
     display: block;
+    padding-right: 10px;
   }
 
   ul li {
